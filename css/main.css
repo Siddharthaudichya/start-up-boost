@@ -1,0 +1,36 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Descent background color */
+}
+
+/* User Defined Global Styles */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gap-400 {
+  gap: 25rem;
+}
