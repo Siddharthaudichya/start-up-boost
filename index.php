@@ -34,8 +34,8 @@
                 </ul>
             </nav>  
             <div class="auth-container">
-                <a href="#login" class="auth-button">Login</a>  
-                <a href="#signup" class="auth-button">Signup</a>
+                <a href="./reg.php" class="auth-button">Login</a>  
+                <a href="./login.php" class="auth-button">Signup</a>
             </div>
         </div>
     </header>
