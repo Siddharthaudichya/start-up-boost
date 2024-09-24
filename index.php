@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/section_contact_us.css">
     <link rel="stylesheet" href="./css/footer.css">
 
+
     <title>StartUpBoost</title>
 </head>
 
@@ -34,66 +35,73 @@
                 </ul>
             </nav>  
             <div class="auth-container">
-                <a href="./reg.php" class="auth-button">Login</a>  
-                <a href="./login.php" class="auth-button">Signup</a>
+                <a href="./login_Form.php" class="auth-button">Login</a>  
+                <a href="./Registration.php" class="auth-button">Signup</a>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container hero-container">
-            <h1>Boost Your Startup with Influencer Marketing!</h1>
-            <p>Brief description of services offered</p>
-            <a href="#get-started" class="cta-btn">Get Started</a>
-        </div>
-    </section>
+    <div style="background-color: rgb(204,166,154);">
 
-    <!-- About Us Section -->
-    <section id="about" class="about">
-        <div class="flex flex-row container gap-400 about-container">
-            <div class="txt">
-                <h2>About Us</h2>
-                <p>Brief introduction about StartUpBoost and its mission</p>
-                <p>Information about the team behind StartUpBoost</p>
-                <p>Testimonials from satisfied startups and influencers</p>
-            </div>
-            <div class="myimg">
-                <img class="section-wise-img" src="./images/about.jpg" alt="image">
-            </div>
-        </div>
-    </section>
+            <!-- Hero Section -->
+            <section id="home" class="hero">
+                <div class="container hero-container">
+                    <h1>Boost Your Startup with Influencer Marketing!</h1>
+                    <p>Brief description of services offered</p>
+                    <a href="#get-started" class="cta-btn">Get Started</a>  
+                </div>
+            </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="flex flex-row container gap-400 services-container">
-            <div class="myimg">
-                <img class="section-wise-img" src="./images/services.jpg" alt="image">
-            </div>
-            <div class="txt">
-                <h2>Services</h2>
-                <p>Explanation of services offered:</p>
-                <ul>
-                    <li>Identifying suitable influencers for startups</li>
-                    <li>Negotiating partnerships and collaborations</li>
-                    <li>Creating influencer marketing campaigns</li>
-                    <li>Tracking and analyzing campaign performance</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+   
+            <!-- About Us Section -->
+            <section id="about" class="about">
+                <div class="flex flex-row container gap-400 about-container">
+                    <div class="txt">
+                        <h2>About Us</h2>
+                        <p>Brief introduction about StartUpBoost and its mission</p>
+                        <p>Information about the team behind StartUpBoost</p>
+                        <p>Testimonials from satisfied startups and influencers</p>
+                    </div>
+                    <div class="myimg">
+                        <img class="section-wise-img" src="./images/about.jpg" alt="image">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services" class="services">
+                <div class="flex flex-row container gap-400 services-container">
+                    <div class="myimg">
+                        <img class="section-wise-img" src="./images/services.jpg" alt="image">
+                    </div>
+                    <div class="txt">
+                        <h2>Services</h2>
+                        <p>Explanation of services offered:</p>
+                        <ul>
+                            <li>Identifying suitable influencers for startups</li>
+                            <li>Negotiating partnerships and collaborations</li>
+                            <li>Creating influencer marketing campaigns</li>
+                            <li>Tracking and analyzing campaign performance</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+   </div>
 
     <!-- Our Influencers Section -->
+    <div style="background-color: rgb(252, 227, 115);">
     <section id="influencers" class="influencers">
-        <div class="container influencers-container">
+        <div class="container influencers-container" >
             <h2>Our Influencers</h2>
             <p>Showcase of some featured influencers available for collaborations</p>
             <!-- Influencer profiles can be dynamically generated here -->
             <a href="#connect" class="cta-btn">Connect with Influencers</a>
         </div>
     </section>
+    </div>
 
-    <!-- Contact Us Section -->
+    <!-- Contact Us Section
     <section id="contact" class="contact">
         <div class="container contact-container">
             <h2>Contact Us</h2>
@@ -112,7 +120,7 @@
                 <p>Address: 123 Startup Ave, City, Country</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer>

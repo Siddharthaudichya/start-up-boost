@@ -1,0 +1,82 @@
+/* Container styling */
+body {
+    background: linear-gradient(135deg, #c3ecfd, #f7f7f7); /* Cool gradient background */    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    width: 400px;
+    transition: all 0.3s ease;
+}
+
+.panel-heading {
+    background: linear-gradient(135deg, #6b63ff, #ff63a6);
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+.panel-body {
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #444;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #6b63ff;
+    outline: none;
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #6b63ff, #ff63a6);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #5147f0, #e45498);
+}
+
+/* Adjust container size on smaller screens */
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+}

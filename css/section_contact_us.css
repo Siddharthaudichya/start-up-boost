@@ -1,12 +1,34 @@
-form label {
-    display: block;
-}
-  
-.section-wise-img {
-    border-radius: 10px;
-    height: 250px;
+/* Contact Us section styles */
+.contact {
+    padding: 60px 0;
+    background-color: #f1f1f1;
 }
 
 .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.contact input, .contact textarea, .contact button {
+    padding: 10px;
+    border: 1px solid #cfd9e6;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #42a5f5;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.contact button:hover {
+    background-color: #7e57c2;
 }

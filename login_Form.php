@@ -2,37 +2,38 @@
 <html>
   <head>
     <title>Registration Page</title>
-    <link rel="stylesheet" type="text/css" href="form.css" />
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
   </head>
   <body>
     <div class="container">
       <div class="row col-md-6 col-md-offset-3">
         <div class="panel panel-primary">
           <div class="panel-heading text-center">
-            <h1>login Form</h1>
-          </div>
-          <div class="panel-body">
-            <form action="conn.php" method="POST">
+              <h1>login Form</h1>
+              </div>
+              <div class="panel-body">
+              <form action="conn.php" method="POST">
               
               
             
           <div class="form-group">
-            <label for="email">Email</label>
-            <input
-              type="text"
-              class="form-control"
-              id="email"
-              name="email"
-            />
+                <label for="email">Email</label>
+                <input
+                type="text"
+                class="form-control"
+                id="email"
+                name="email"
+          />
+
           </div>
           <div class="form-group">
-            <label for="password">Password</label>
-            <input
+              <label for="password">Password</label>
+              <input
               type="password"
               class="form-control"
               id="password"
               name="password"
-            />
+           />
           </div>
         
         </div>

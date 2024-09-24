@@ -1,3 +1,23 @@
-.influencers-container {
-    
+/* Influencers section styles */
+.influencers {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.influencers h2 {
+    color: #42a5f5;
+}
+
+.cta-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #42a5f5;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #7e57c2;
 }

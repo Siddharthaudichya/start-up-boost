@@ -1,36 +1,28 @@
-/* Global Styles */
-* {
+/* General styles */
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5; /* Descent background color */
-}
-
-/* User Defined Global Styles */
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
-.flex-col {
-  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
-.gap-400 {
-  gap: 25rem;
+h1, h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+p {
+  color: #555;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

@@ -1,3 +1,57 @@
+/* About Us section styles */
+.about {
+    padding: 60px 0;
+    background-color: #f7f7f7;
+}
+
 .about-container {
-    
+    display: flex;
+    gap: 50px;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center the container */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.about h2 {
+    color: #42a5f5;
+    text-align: center; /* Center the heading text */
+    width: 100%; /* Full width for centering */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.txt {
+    flex: 1; /* Allows text to take available space */
+    max-width: 500px; /* Limits width for better readability */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.section-wise-img {
+    width: 280%; /* Adjust this as needed */
+    max-width: 300px; /* Limit maximum size */
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.section-wise-img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .section-wise-img {
+        width: 80%; /* Make images wider on smaller screens */
+        margin: 0 auto; /* Center the image */
+    }
+
+    .about-container {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center; /* Center items */
+    }
+
+    .txt {
+        text-align: center; /* Center text on smaller screens */
+        padding: 0 20px; /* Add side padding */
+    }
 }
